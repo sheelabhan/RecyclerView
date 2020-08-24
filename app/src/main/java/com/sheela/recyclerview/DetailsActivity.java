@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 public class DetailsActivity extends AppCompatActivity {
-    ImageView imgProfile;
+    CircleImageView imgProfile;
     TextView tvName, tvPhoneNo;
 
     @Override
